@@ -1,0 +1,431 @@
+/* Reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Main styling */
+html,body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.8em;
+}
+
+.index_body {
+    background-color:  rgb(203, 236, 205);
+}
+ 
+a {
+    color:#283761;
+    text-decoration: none;
+}
+
+
+h1,h2,h3 {
+    padding-bottom: 20px;
+}
+
+
+p {
+    margin: 10px 0;
+}
+
+
+/* Navigation bar */
+#navibar {
+    background: #283761;
+    color: #fff;
+    overflow: auto;
+}
+
+#navibar a {
+    color: #fff;
+}
+
+#navibar h1 {
+    float: left;
+    padding-top: 20px;
+}
+
+#navibar ul {
+    list-style: none;
+    float: right;
+}
+ 
+#navibar ul li {
+    float: left;
+}
+
+#navibar ul li a {
+    display: block;
+    padding: 20px; 
+    text-align: center;
+}
+
+#navibar ul li a:hover {
+    background: #283761;
+    color: #f7c08a;
+}
+
+.container {
+    margin: auto;
+    max-width: 1700px;
+    overflow: auto;
+    padding: 0 20px;
+}
+
+.logo {
+    padding: 3px;
+    font-size: 30px;
+}
+
+.image1 {
+    width: 100%;
+}
+
+.paragraph1 {
+    text-align: center;
+    padding: 60px;
+    font-size: 20px;
+}
+
+.section {
+    display: grid;
+    grid-template-columns:auto auto auto;
+}
+
+#img2 {
+    border-radius: 20px;
+    width: 500px;
+    height: 320px;
+    padding-left: 1%;
+
+}
+
+#img3 {
+    border-radius: 20px;
+    width: 500px;
+    height: 320px;
+    padding-left: 1%;
+
+}
+
+#img4 {
+    border-radius: 20px;
+    width: 500px;
+    height: 320px;
+    padding-left: 1%;
+
+}
+
+.heading {
+    text-align: center;
+}
+
+.info {
+    text-align: center;
+    font-size: 16px;
+    margin-left: 2%;
+}
+ 
+.lists {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.list {
+    text-align: center;
+    font-size: 16px;
+    padding-left: 15%;
+}
+
+.list ul li {
+    list-style-type: circle;
+    text-align: left;
+
+}
+
+.namefooter {
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+}
+
+.footer ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin-top: 30px;
+}
+
+.footer ul li a {
+    color: #fff;
+    margin: 35px;
+    text-decoration: none;
+    font-size: 15px;
+    opacity: 70%;
+}
+
+footer {
+    background-color: #283761;
+    padding: 30px;
+}
+
+.footer ul li :hover {
+    color: #f7c08a;
+}
+
+
+/* branches page....*/
+
+.branches_body {
+    background-color: rgb(203, 236, 205);
+}
+
+
+
+.branches {
+    font-size: 50px;
+    text-align: center;
+    background-color: rgb(80, 185, 195);
+    padding: 1%;
+}
+
+.heading_branch {
+    text-align: center;
+}
+
+.maps {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.map {
+    text-align: center;
+    padding-left: 1%;
+    border-radius: 20px;
+}
+
+.table_branches {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+table, th, td {
+    border: 1px solid;
+}
+
+th {
+    text-align: center;
+    padding: 12px;
+    font-size: 21px;
+}
+
+td {
+    text-align: center;
+    padding: 12px;
+    font-size: 15px;
+}
+
+.table_image_x {
+    width: 460px;
+    height: 310px;
+}
+
+
+/* adventures page...*/
+
+.adventures_body {
+    background-color:  rgb(203, 236, 205);
+}
+
+.adventure {
+    font-size: 50px;
+    text-align: center;
+    background-color: rgb(80, 185, 195);
+    padding: 1%;
+}
+
+.surfing {
+    padding-left: 3%;
+    padding-bottom: 0%;
+    font-size: 30px;
+}
+
+.maps_img {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.map4 {
+   padding-left: 2%; 
+}
+
+.image9 {
+    width: 900px;
+    height: 520px;
+    padding-left: 2%;
+}
+
+.surfing_info {
+    width: 800px;
+    font-size: 22px;
+    padding: 3%;
+    padding-top: 1%;
+}
+
+.rule {
+    color: black;
+}
+
+
+/* restauarents page....*/
+
+.resturants_body {
+    background-color: rgb(207, 217, 175);
+}
+
+.meal {
+    font-size: 50px;
+    text-align: center;
+    background-color: rgb(134, 158, 71);
+    padding: 1%;
+}
+
+.rest_pic {
+    width: 800px;
+    height: 520px;
+    padding-left: 1%;
+}
+
+.meals {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding-left: 1%;
+}
+
+.rest_info {
+    width: 550px;
+}
+
+.restaurant_para {
+    font-size: 20px;
+}
+
+.restaurant-menu {
+    color: #030001;
+    font-size: 30px;
+}
+
+.restaurant-menu :hover {
+    color: #d41572;
+}
+
+.events {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.event_heading {
+    padding-top: 4%;
+    padding-left: 45%;
+    font-size: 30px;
+}
+
+.event_info {
+    padding-left: 25%;
+}
+
+.event {
+    font-size: 19px;
+}
+
+.event_background {
+    background-color: rgb(165, 178, 132);
+}
+
+.event_background {
+    padding: 1px;
+    border-radius: 5px;
+}
+
+
+
+
+/*....booking page....*/
+
+.booking_body {
+    background-color: rgb(207, 217, 175);
+}
+.booking-form {
+    width: 600px;
+    margin: 0 auto;
+    padding: 50px;
+    background: transparent;
+  }
+  
+  div.group1 {
+    margin: 20px 0;
+  }
+  
+  div.group1.inlined {
+    width: 49%;
+    display: inline-block;
+    float: left;
+    margin-left: 1%;
+  }
+  
+  label {
+    display: block;
+    font-family: 'Nanum Gothic';
+    padding-bottom: 10px;
+    font-size: 1.25em;
+  }
+  
+  input, select, textarea {
+    border-radius: 2px;
+    border: 2px solid #777;
+    box-sizing: border-box;
+    font-size: 1.25em;
+    font-family: 'Nanum Gothic';
+    width: 100%;
+    padding: 10px;
+  }
+  
+  div.group1.inlined input {
+    width: 95%;
+    display: inline-block;
+  }
+  
+  textarea {
+    height: 250px;
+  }
+  
+  hr {
+    border: 1px dotted #1d1b1b;
+  }
+  
+  button {
+    height: 50px;
+    background: rgb(9, 83, 94);
+    border: none;
+    color: white;
+    font-size: 1.25em;
+    font-family: 'Nanum Gothic';
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 0 12px;
+  }
+  
+  button:hover {
+    background: #9e8ced;
+  }
+
+/*....menu....*/
+
+.image_menu {
+    width: 100%;
+    height: 100%;
+}
+  
+  

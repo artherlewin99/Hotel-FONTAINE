@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Main styling */
+html,body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.8em;
+}
+ 
+a {
+    color:#188665;
+    text-decoration: none;
+}
+
+
+h1,h2,h3 {
+    padding-bottom: 20px;
+}
+
+
+p {
+    margin: 10px 0;
+}
+
+
+/* Navigation bar */
+#navibar {
+    background: #188665;
+    color: #fff;
+    overflow: auto;
+}
+
+#navibar a {
+    color: #fff;
+}
+
+#navibar h1 {
+    float: left;
+    padding-top: 20px;
+}
+
+#navibar ul {
+    list-style: none;
+    float: right;
+}
+ 
+#navibar ul li {
+    float: left;
+}
+
+#navibar ul li a {
+    display: block;
+    padding: 20px; 
+    text-align: center;
+}
+
+#navibar ul li a:hover {
+    background: #188665;
+    color: #f7c08a;
+}
+
+
+/* Utility classes */
+.container {
+    margin: auto;
+    max-width: 1700px;
+    overflow: auto;
+    padding: 0 20px;
+}
+
+
+.event2_body {
+    background-color: rgb(122, 239, 210);
+}
+
+.unlimited_seafood {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-left: 4%;
+    font-size: 50px;
+}
+
+.sf {
+    width: 1100px;
+    height: 600px;
+    padding-left: 12%;
+}
+
+.festa {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.heading-seafood_festa {
+    font-size: 32px;
+}
+
+.paragraph_festa {
+    width: 690px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 22px;
+}
+
+.festa_16 {
+    width: 700px;
+    height: 380px;
+    padding-left: 15%
+}
+
+.festa_paragraph1 {
+    padding-left: 12%;
+}
+
+.festa_17 {
+    width: 690px;
+    height: 380px;
+    padding-left: 15%
+}
+
+.namefooter_event2 {
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+    background-color: #188665;
+    padding-top: 3%;
+}
+
+.footer_event2 ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin-top:5px;
+}
+
+.footer_event2 ul li a {
+    color: #fff;
+    margin: 35px;
+    text-decoration: none;
+    font-size: 15px;
+    opacity: 70%;
+}
+
+.footer_event2 {
+    background-color: #188665;
+    padding: 20px;
+}
+
+.footer_event2 ul li :hover {
+    color: #f7c08a;
+}
