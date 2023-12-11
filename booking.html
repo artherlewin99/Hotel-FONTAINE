@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel FONTAINE / Welcome</title>
+    <link rel="stylesheet" href="styling.css">
+   
+    
+</head>
+<body class="booking_body">
+<div>
+  <div>
+    <div>
+      <div class="hotelbd">
+        <label class="hotbdlb">Hotel booking ....</label>
+        <div class="group1">
+          <label>Full Name</label>
+          <input type="text" id="name" name="visitor_name" placeholder="Enter Your name" required>
+        </div>
+        <div class="group1">
+          <label>Phone Number</label>
+          <input type="tel" id="phone" name="visitor_phone" placeholder="Enter Your Number" required>
+        </div>
+        <br>
+        <hr>
+        <div class="group1 inlined">
+          <label>Adults</label>
+          <input type="number" id="adult" name="total_adults" placeholder="2" min="1" required>
+        </div>
+        <div class="group1 inlined">
+          <label>Children</label>
+          <input type="number" id="child" name="total_children" placeholder="2" min="0" required>
+        </div>
+        <div class="group1 inlined">
+          <label>Check-in</label>
+          <input type="date" id="checkInDate" name="checkin" required>
+        </div>
+        <div class="group1 inlined">
+          <label>Check-out</label>
+          <input type="date" id="checkOutDate" name="checkout" required>
+        </div>
+        <br>
+        <br>
+        <span>
+          <p id="numofDays">Number of Days : </p>
+          <p id="numDayUpdate">***</p>
+        </span>
+        <br>
+        <div class="group1">
+          <label>Select Room Type</label>
+          <select id="roomtype" name="roomtype"  required>
+              <option>Choose a Room from the List</option>
+              <option  value="single">Single Room</option>
+              <option   value="double">Double Room</option>
+              <option   value="family">Family Room</option>
+          </select>
+          <br>
+          <br>
+          <label class="numofRooms">Number of Rooms :</label>
+          <input type="number" min="1" max="20" name="roomType" id="numberofRooms" value="1" class="duration">
+        </div>
+        <div>
+          <label>Extra bed</label>
+          <input type="checkbox" id="extrabd" name="extra_beds">
+        </div>
+        <br>
+      </div>
+      <br>
+      <div class="exrq">
+        <label>Extra requirements :</label>
+        <br>
+        <div>
+          <label>wifi</label>
+          <input type="checkbox" name="extrareq" id="wifi" value="wifi">
+          <label>pool</label>
+          <input type="checkbox" name="extrareq" id="pool" value="pool">
+          <br>
+          <br>
+          <div class="group1">
+            <label>Select Room view</label>
+            <p>
+              <label class="extrareqlbl">Pool View</label>
+              <input type="radio" name="extrareq" id="poolview" value="poolview">
+              <label class="extrareqlbl2">Garden View</label>
+              <input type="radio" name="extrareq" id="gardenview" value="gardenview">
+          </p>
+          </div>
+        </div>
+      </div>
+      <br>
+       
+    </div>
+    <br>
+    <div>
+      <div class="exrq">
+        <label class="adbooking">Adventure booking ....</label>
+          <div class="group1">
+            <label>Select the adventure :</label>
+
+            
+            <select id="adventure_selection" name="adventure_selection">
+                <option>Choose an adventure from the List</option>
+                <option value="hillclimb">Hill climbing</option>
+                <option value="diving">Diving</option>
+                <option value="rafting">Water rafting</option>
+            </select>
+          </div>
+          <br>
+          <label>Add your details,</label>
+          <br>
+          <label id="tour">Local tourists</label>
+          <br>
+          <div class="adpeople">
+            <label>Number of adults :</label>
+            <input type="number" value="localAdults" name="Adventure" id="total_adults" placeholder="2" min="0">
+          </div>
+          <br>
+          <div class="adpeople">
+            <label>Number of children(above 5 years) :</label>
+            <input type="number" value="localkids" name="Adventure" id="total_children" placeholder="2" min="0">
+          </div>
+          <br>
+          <br>
+          <label id="tour">Forign tourists</label>
+          <br>
+          <div class="adpeople">
+           <label>Number of adults :</label>
+            <input type="number" value="foreignadults" name="Adventure" id="total_aduls_forign" placeholder="2" min="0">
+          </div>
+          <br>
+          <div class="adpeople">
+            <label>Number of children(above 5 years) :</label>
+            <input type="number" value="foreignkids" name="Adventure" id="total_children_forign" placeholder="2" min="0">
+          </div>
+          <br>
+          <br>
+          <label>Do you need guidence ? ( eg : Diving lessons)</label>
+          <br>
+          <div>
+            <label for="adultsGuidence">Guidence for adults</label>
+            <input type="checkbox" id="adultsGuidence" name="guidence" value="adult">
+          </div>
+          <div>
+            <label for="kidsGuidence">Guidence for kids</label>
+            <input type="checkbox" id="kidsGuidence" name="guidence" value="kid">
+          </div>
+          <br>
+          <div class="exrq">
+            <p>
+             <label>Promo Code : </label>
+             <input type="text" id="promocode">
+             <br>
+             <br>
+             <button type="button" id="checkPromo">Check Promo</button>
+    
+            </p>
+          </div> 
+          <br>
+      </div>
+    </div>
+  </div>
+<br>
+<div class="exrq">
+  <label>Current cost :</label>
+  <p id="currentcost">Change</p>
+  <label>Current Bookings</label>
+  <p id="currentBooking">Change</p>
+</div>
+<br>
+<div>
+  <button type="submit" id="roombookbtn">Book Now</button>
+  <button type="submit" id="addfavbtn">Add to favourite</button>
+  <button type="submit" id="cheakfavbtn">Cheak favourite</button>
+</div>
+</div>
+<br>
+<div class="exrq" id="popup">
+  <label>Total :</label>
+  <p id="output1"></p>
+</div>
+<br>
+
+
+
+<script src="main.js" defer></script>
+</body>
+</html> 
