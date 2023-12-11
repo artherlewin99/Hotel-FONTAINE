@@ -166,7 +166,7 @@ function foreignerKidsFunction(){
 function foreignerAdultFunction(){
     foreignAdultCost = foreignerAdultInput.value * 10000
 
-    total = ((roomcost*numofRooms + bedCost)* numberDaysCal)+ guideCost +foreignKidCost +foreignAdultCost;
+    total = ((roomcost*numofRooms + bedCost)* numberDaysCal)+ guideCost +foreignAdultCost;
     currentcost.innerText = `${total}`;
 
 
@@ -175,14 +175,14 @@ function foreignerAdultFunction(){
 function localKidsFunction(){
     localKidCost = localKidsInput.value * 2000
 
-    total = ((roomcost*numofRooms + bedCost)* numberDaysCal)+ guideCost +foreignKidCost +foreignAdultCost +localKidCost;
+    total = ((roomcost*numofRooms + bedCost)* numberDaysCal)+ guideCost +localKidCost;
     currentcost.innerText = `${total}`;
 }
 
 function localAdultFunction(){
     localAdultCost = localAdultInput.value * 5000
 
-    total = ((roomcost*numofRooms + bedCost)* numberDaysCal)+ guideCost +foreignKidCost +foreignAdultCost +localKidCost +localAdultCost;
+    total = ((roomcost*numofRooms + bedCost)* numberDaysCal)+ guideCost +localAdultCost;
     currentcost.innerText = `${total}`;
 
 }
